@@ -10,7 +10,7 @@
 # See /LICENSE for more information.
 #
 
-name: 360-t7 immortalwrt-mt798x Builder
+name: q30 immortalwrt-mt798x-24.10
 
 on:
   repository_dispatch:
@@ -19,10 +19,10 @@ on:
     types: started
 
 env:
-  REPO_URL: https://github.com/hanwckf/immortalwrt-mt798x
-  REPO_BRANCH: openwrt-21.02
+  REPO_URL: https://github.com/padavanonly/immortalwrt-mt798x-24.10
+  REPO_BRANCH: openwrt-24.10-6.6
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: mt7981-360-t7.config
+  CONFIG_FILE: 24-10-q30.config
   DIY_P1_SH: diy-part1.sh
   DIY_P2_SH: diy-part2.sh
   UPLOAD_BIN_DIR: false
